@@ -55,7 +55,7 @@ public class HomepageTest extends Base {
 	public void takeScreenshot() {
 		//Screenshotutil();
 		driver.quit();
-		System.out.println("Close browser");
+		System.out.println("Close browser....");
 	}
 
 }
