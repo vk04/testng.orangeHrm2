@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite">
+
+	<listeners>
+		<listener class-name="customizedListeners.Listeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+
+	</listeners>
+
+	<test name="Test Suite">
+
+		<classes>
+			<class name="com.test.testng.orangeHrm.Tests" />
+			<class name="com.test.testng.orangeHrm.HomepageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Test_Suite -->
